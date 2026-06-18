@@ -40,11 +40,11 @@ export default function App() {
           </h1>
 
           <div className="flex gap-2">
-            <button className="bg-gray-900 px-3 py-2 rounded-[5px] font-bold transition-all duration-300 hover:scale-105">
+            <button className="bg-gray-900 px-3 py-2 rounded-[5px] font-bold transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">
               Button 1
             </button>
 
-            <button className="bg-gray-900 px-3 py-2 rounded-[5px] font-bold transition-all duration-300 hover:scale-105">
+            <button className="bg-gray-900 px-3 py-2 rounded-[5px] font-bold transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">
               Button 2
             </button>
           </div>
