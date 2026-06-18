@@ -33,7 +33,7 @@ export default function App() {
 
       {/* Header */}
       <div className="p-3 bg-gray-800 rounded-xl">
-        <div className="flex items-center justify-between bg-gray-700 p-3 rounded-[5px]">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 bg-gray-700 p-3 rounded-[5px]">
 
           <h1 className="text-xl font-bold">
             Title
