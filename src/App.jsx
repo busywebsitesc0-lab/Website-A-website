@@ -9,7 +9,7 @@ export default function App() {
     if (!el) return
 
     let scrollPos = 0
-    let speed = 0.6
+    let speed = 1
     let animationId
 
     const animate = () => {
@@ -29,10 +29,10 @@ export default function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white p-5">
 
       {/* Header */}
-      <div className="p-3 bg-gray-800">
+      <div className="p-3 bg-gray-800 rounded-xl">
         <h1 className="text-xl font-bold bg-gray-700 p-3 rounded-[5px]">
           Title
         </h1>
@@ -70,6 +70,16 @@ export default function App() {
           Or a static image
         </p>
         <img src={banana} className="w-72 object-cover rounded-xl"></img>
+      </div>
+
+      <div className="bg-gray-800 p-6 rounded-2xl m-5 flex flex-col items-center m-5">
+        <h2 className="text-5xl font-bold">Or a hero</h2>
+        <p className="text-1xl font-extrabold text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptate accusantium inventore quasi velit incidunt ab impedit minima alias, ex molestias. Modi ipsa enim vel sapiente explicabo rem. Necessitatibus, quia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius odio doloribus saepe ea consectetur distinctio, ad possimus placeat dicta, incidunt voluptate accusantium sed repellat tempore culpa esse id. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium, cumque fuga ducimus, facilis mollitia sed sunt nulla soluta repudiandae qui, ab temporibus quo placeat nemo eius. Illum, eaque voluptate!</p>
+
+        <div className="flex">
+          <button className="bg-gray-900 font-bold rounded-[5px] p-2 m-3 hover:scale-105 transition-all duration-300 active:scale-95">Lorem ipsum</button>
+          <button className="bg-gray-900 font-bold rounded-[5px] p-2 m-3 hover:scale-105 transition-all duration-300 active:scale-95">Lorem ipsum</button>
+        </div>
       </div>
 
 
