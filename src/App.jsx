@@ -88,12 +88,12 @@ export default function App() {
 
       <div className="bg-gray-800 p-6 rounded-2xl m-5 flex flex-col items-center m-5">
         <h2 className="text-5xl font-bold mb-2">Or a hero</h2>
-        <p className="text-1xl font-extrabold text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptate accusantium inventore quasi velit incidunt ab impedit minima alias, ex molestias. Modi ipsa enim vel sapiente explicabo rem. Necessitatibus, quia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius odio doloribus saepe ea consectetur distinctio, ad possimus placeat dicta, incidunt voluptate accusantium sed repellat tempore culpa esse id. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium, cumque fuga ducimus, facilis mollitia sed sunt nulla soluta repudiandae qui, ab temporibus quo placeat nemo eius. Illum, eaque voluptate! (Customizable)</p>
+        <p className="text-1xl font-extrabold text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptate accusantium inventore quasi velit incidunt ab impedit minima alias, ex molestias. Modi ipsa enim vel sapiente explicabo rem. Necessitatibus, quia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius odio doloribus saepe ea consectetur distinctio, ad possimus placeat dicta, incidunt voluptate accusantium sed repellat tempore culpa esse id. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium, cumque fuga ducimus, facilis mollitia sed sunt nulla soluta repudiandae qui, ab temporibus quo placeat nemo eius. Illum, eaque voluptate! (Everything on this webpage is customizable)</p>
 
 
         <div className="flex">
-          <button className="bg-gray-900 font-bold rounded-[5px] p-2 m-3 hover:scale-105 cursor-pointer transition-all duration-300 active:scale-95">Button 1</button>
-          <button className="bg-gray-900 font-bold rounded-[5px] p-2 m-3 hover:scale-105 transition-all duration-300 active:scale-95 cursor-pointer">Button 2</button>
+          <button className="bg-gray-900 font-bold rounded-[5px] p-3 m-2 hover:scale-105 cursor-pointer transition-all duration-300 active:scale-95" onClick={() => window.location.href = "https://www.youtube.com"}>Button 1</button>
+          <button className="bg-gray-900 font-bold rounded-[5px] p-3 m-2 hover:scale-105 transition-all duration-300 active:scale-95 cursor-pointer">Button 2</button>
         </div>
       </div>
 
